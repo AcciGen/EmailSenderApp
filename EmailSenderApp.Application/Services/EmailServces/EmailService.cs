@@ -21,7 +21,7 @@ namespace EmailSenderApp.Application.Services.EmailServces
 
         public async Task SendEmailAsync(EmailModel model)
         {
-            string path = @"D:\SelfStudy\frontend\versitka\planeta\sender.html";
+            string path = "C:\\AcciGen\\sender.html";
 
             using(var stream = new StreamReader(path))
             {

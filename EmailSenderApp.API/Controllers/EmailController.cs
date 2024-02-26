@@ -22,7 +22,7 @@ namespace EmailSenderApp.API.Controllers
             
             await _emailService.SendEmailAsync(model);  
 
-            return Ok("Muvoffaqiyatli email yuborildi");
+            return Ok("Your message was sent successfully!");
         }
     }
 }
